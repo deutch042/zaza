@@ -1,0 +1,17 @@
+[build]
+command = "npm run build"
+publish = ".next"
+
+[build.environment]
+NODE_VERSION = "22"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+from = "/fonts/*"
+to = "/fonts/:splat"
+status = 200
+
+[context.production]
+command = "npm run build"

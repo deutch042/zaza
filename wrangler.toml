@@ -1,0 +1,5 @@
+name = "zad-muslim"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+build_command = "npx @cloudflare/next-on-pages"
+pages_build_output_dir = ".vercel/output/static"
