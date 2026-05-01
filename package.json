@@ -87,6 +87,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/howler": "^2.2.12",
+    "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
